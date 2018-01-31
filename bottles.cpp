@@ -4,21 +4,18 @@ using namespace std;
 
 int main()
 {
-	int bottle = 99;
-	while (bottle > 0);
+	int b = 99 ;
+	while (b > 1)
 	{
-		cout << bottle << "bottles of beer on the wall, "
-			<< bottle << " bottles of beer." << endl;
+		cout << b << "bottles of beer on the wall, "
+			<< b << " bottles of beer." << endl;
 
-		bottle--;
+		b--;
 
 		cout << "Take one down and pass it around, "
-			<< bottle << "\nbottles of beer on the wall." << endl;
+			<< b << "\nbottles of beer on the wall." << endl;
 
-		if (bottle == 1)
-		{
-			break;
-		}
+		
 	}
 	cout << "1 bottle of beer on the wall, 1 bottle of beer." << endl
 		<< "Take one down and pass it around, no more bottles of beer on the wall.\n" << endl
